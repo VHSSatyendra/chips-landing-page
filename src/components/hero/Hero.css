@@ -1,0 +1,111 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 50vh;
+    width: 100%;
+    /* background-color: chartreuse; */
+    background: url(../../assets/images/chipsHero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.bgText{
+    z-index: -100;
+    font-size: 37vw;
+    font-family: 'Poppins';
+    color: grey;
+    opacity: .2;
+    font-weight: 500;
+    letter-spacing: 2vw;
+}
+
+.textContainer{
+    /* z-index: 100; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 31%;
+    top: 55%;
+    /* align-items: center; */
+    /* background-color: rgb(185, 185, 240); */
+    height: 7vh;
+    justify-content: space-between;
+}
+h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.place{
+    font-size: 4vw;
+    font-family: 'Poppins';
+    font-weight: normal;
+    color: var(--text-color);
+}
+.since{
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 3vw;
+}
+.year{
+    font-family: serif;
+    font-style: italic;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1000px) {
+    .bgText {
+        font-size: 24vw;
+    }
+
+    .textContainer{
+        left: 35%;
+    }
+
+    .textContainer h4{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .textContainer h6{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .textContainer h5{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+
+@media  screen and (min-width: 1200px) {
+    .container{
+        height: 75vh;
+        width: 70%;
+        margin: auto;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    }
+    .bgText {
+        font-size: 200px;
+    }
+    .textContainer{
+        left: 43%;
+        top: 80%;
+    }
+    .textContainer h4{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .textContainer h6{
+        font-size: .8rem;
+        text-align: center;
+    }
+    .textContainer h5{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}

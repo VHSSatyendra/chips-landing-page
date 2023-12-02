@@ -1,0 +1,53 @@
+.navbar {
+    background-color: white;
+    height: 18vw;
+    width: 100%;
+    box-shadow: 1px 1px 35px #c9c9c9;
+    display: flex;
+    align-items: center;
+    /* padding: 0 1vw; */
+    justify-content: center;
+}
+.logo{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 4vw;
+}
+.ele{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* background-color: blueviolet; */
+    justify-content: space-between;
+}
+
+.faEquals {
+    font-size: 20px
+}
+
+/* For Tabs */
+@media screen and (min-width: 1000px) {
+    .navbar{
+        height: 110px;
+    }
+    .logo{
+        font-size: 3vw;
+    }
+    .faEquals{
+        font-size: 40px;
+    }
+}
+
+/* For Desktops */
+@media screen and (min-width: 1200px) {
+    .navbar{
+        height: 60px;
+        width: 100%;
+    }
+    .logo{
+        font-size: 1.2vw;
+    }
+    .faEquals{
+        font-size: 20px;
+    }
+}

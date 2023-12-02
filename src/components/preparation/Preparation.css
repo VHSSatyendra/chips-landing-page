@@ -1,0 +1,188 @@
+.prep-container {
+  margin-top: 50px;
+  height: 550px;
+  width: 100%;
+  /* background-color: coral; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+.yellow {
+  background-color: var(--yellow-bg);
+  width: 100%;
+  height: 30%;
+}
+
+.layers-container {
+  height: 250px;
+  width: 250px;
+  /* background-color: aquamarine; */
+  position: absolute;
+  left: 17%;
+}
+
+.prep-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hows {
+  width: 150px;
+  height: 150px;
+  margin-top: 45px;
+}
+.hows img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.hows h4 {
+  position: absolute;
+  top: 260px;
+  font-size: 1.3rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+.howsPara {
+  font-size: 0.8rem;
+  font-family: cursive;
+  position: absolute;
+  top: 280px;
+}
+
+.recipe-container {
+  /* height: 150px; */
+  width: 80%;
+}
+
+.recipe-container h4 {
+  font-family: cursive;
+  font-size: 1.5rem;
+  color: rgb(210, 210, 210);
+  margin-bottom: 10px;
+}
+
+.recipe-container h6 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.recipe-container p {
+  color: rgb(179, 179, 179);
+  font-family: "Poppins";
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .prep-container {
+    margin-top: 100px;
+    height: 750px;
+    /* background-color: blueviolet; */
+  }
+  .yellow {
+    height: 35%;
+  }
+  .layers-container {
+    left: 21%;
+    height: 60%;
+    width: 60%;
+    top: 10px;
+  }
+  .hows {
+    width: 200px;
+    height: 200px;
+    /* background-color: blueviolet; */
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .hows h4 {
+    top: 32%;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--text-color);
+    text-transform: uppercase;
+  }
+  .howsPara {
+    font-size: 1rem;
+    font-family: cursive;
+    top: 510px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .prep-container {
+    margin-top: 50px;
+    height: 650px;
+    width: 100%;
+    /* background-color: coral; */
+   
+    flex-direction: row;
+    position: relative;
+  }
+  
+.yellow {
+  background-color: var(--yellow-bg);
+  width: 25%;
+  height: 100%;
+}
+.layers-container {
+  height: 450px;
+  width: 450px;
+  /* background-color: aquamarine; */
+  position: absolute;
+  left: 7%;
+  top: 15%;
+  /* right: 100PX; */
+}
+.hows {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 45%;
+  top: -130px;
+  /* margin-top: 45px; */
+}
+.howsPara {
+  left: 36%;
+  top: 165px;
+  font-size: 1rem;
+  font-family: cursive;
+}
+
+.recipe-container {
+  /* height: 150px; */
+  width: 30%;
+  position: absolute;
+  left: 60%;
+  top: 55%;
+}
+
+/* .recipe-container h4 {
+  font-family: cursive;
+  font-size: 1.5rem;
+  color: rgb(210, 210, 210);
+  margin-bottom: 10px;
+} */
+
+/* .recipe-container h6 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 0.8rem;
+} */
+
+/* .recipe-container p {
+  color: rgb(179, 179, 179);
+  font-family: "Poppins";
+  font-size: 0.8rem;
+} */
+
+}
